@@ -1,0 +1,2 @@
+# RIP
+Receipt in progress
