@@ -21,8 +21,7 @@
         app:fabCustomSize="150dp"
         app:hoveredFocusedTranslationZ="20dp"
         app:maxImageSize="115dp"
-        app:useCompatPadding="false"
-        android:onClick="openCamera"/>
+        app:useCompatPadding="false"/>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/floatingActionButton5"
