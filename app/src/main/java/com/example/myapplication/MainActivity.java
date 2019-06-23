@@ -24,15 +24,13 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
-                case R.id.navigation_home:
+                case R.id.navigation_transactions:
                     mTextMessage.setText(R.string.title_transactions);
                     return true;
-                case R.id.navigation_dashboard:
-                    Intent intent2 = new Intent(MainActivity.this, Stats.class);
-                    startActivity(intent2);
+                case R.id.navigation_stats:
                     mTextMessage.setText(R.string.title_stats);
                     return true;
-                case R.id.navigation_notifications:
+                case R.id.navigation_history:
                     mTextMessage.setText(R.string.title_history);
                     return true;
             }
