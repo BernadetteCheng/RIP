@@ -1,8 +1,5 @@
 # RIPcipts
-Receipt in progress
-
-## Inspiration
-We wanted to reduce the time it took to track how much we spent into a budgeting app. We decided to make an app that would serve the same purpose with just a photo of the receipt.
+* We wanted to reduce the time it took to track how much we spent into a budgeting app. We decided to make an app that would serve the same purpose with just a photo of the receipt.
 
 What it does
 Users can take photos of their receipts and have the costs of items recorded. It tracks the total amount spent in a period of time and also keeps a history of each individual receipt that was entered.
